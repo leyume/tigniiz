@@ -1,4 +1,4 @@
-# gniiz ... Backwards
+# gniiz ... backwards 😅
 
 ## Project setup
 
