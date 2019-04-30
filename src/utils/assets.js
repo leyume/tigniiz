@@ -10,9 +10,9 @@ const assets = {
       assets.import.mapper(
         require.context("@/assets/css", false, /\.(scss|css)$/)
       );
-      assets.import.mapper(
-        require.context("@/assets/fonts", false, /\.(eot|svg|ttf|woff)$/)
-      );
+      // assets.import.mapper(
+      //   require.context("@/assets/fonts", false, /\.(eot|svg|ttf|woff)$/)
+      // );
     }
   }
 };
