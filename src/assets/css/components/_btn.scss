@@ -1,0 +1,32 @@
+.btn {
+  display: inline-block;
+  padding: 5px 15px 6px;
+  background: $color-brand;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-weight: 400;
+  position: relative;
+  margin: 0px;
+
+  &:hover {
+    margin: -1px 0 1px;
+    box-shadow: 1px 1px 20px #aaa;
+    color: #fff;
+  }
+
+  &.mini {
+    padding: 4px 11px 5px;
+    font-size: 0.8rem;
+  }
+  &.mini:hover {
+    margin: 0;
+    box-shadow: 1px 1px 10px rgba($color: #fff, $alpha: 0.4);
+    // color: #fff;
+  }
+
+  &.alt {
+    background-color: #fff;
+    color: $color-brand;
+  }
+}

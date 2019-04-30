@@ -1,29 +1,52 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <Head :class="loggedIn ? 'in' : ''"/>
+    <Navi v-if="loggedIn"/>
+    <section :class="loggedIn ? 'in' : ''">
+      <router-view/>
+    </section>
+    <Foot v-if="loggedIn"/>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+import Head from "@/components/Head.vue";
+import Navi from "@/components/Navi.vue";
+import Foot from "@/components/Foot.vue";
+
+export default {
+  name: "app",
+  components: {
+    Head,
+    Navi,
+    Foot
+  },
+  data() {
+    return {
+      loggedIn: false,
+      msg: false
+    };
+  },
+
+  created() {
+    // console.log(this.loggedIn);
+    if (!this.loggedIn) {
+      this.$router.push("/login");
+    }
+  },
+
+  methods: {
+    sMeth() {
+      // this.msg = true;
     }
   }
-}
-</style>
+  // watch: {
+  //   $route: {
+  //     handler: function(to, from) {
+  //       // console.log(99);
+  //     },
+  //     immediate: true
+  //   }
+  // }
+};
+</script>

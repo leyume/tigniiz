@@ -1,0 +1,86 @@
+#app {
+  > section {
+    @include central();
+    .login {
+      max-width: 360px;
+    }
+    flex-grow: 1;
+    &.in {
+      background-color: #f4f7fa;
+    }
+    &.admin {
+      @include central_free();
+    }
+    > div {
+      position: relative;
+    }
+    > div > .content {
+      padding: 30px 0;
+      margin: 0 -10px;
+
+      .flex {
+        display: flex;
+        // flex-flow: row wrap;
+
+        > div {
+          background: #eee;
+          border-radius: 5px;
+          padding: 30px;
+          margin: 0 10px;
+          flex: 2 0;
+        }
+
+        .formly {
+          flex: 1 0;
+        }
+      }
+
+      .flax {
+        background: #eee;
+        border-radius: 5px;
+        padding: 30px;
+        margin: 0 10px 20px;
+      }
+
+      .imagery {
+        display: flex;
+        flex-flow: row wrap;
+        // justify-content: space-around;
+        div {
+          // width: 33%;
+          flex: 1 30%;
+          padding: 15px;
+          // margin: 10px;
+          img {
+            border-radius: 4px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+section {
+  background: rgba($color: #fff, $alpha: 0.95);
+  padding: 20px 5px;
+  box-sizing: border-box;
+  &.home {
+    background: transparent;
+    padding: 0;
+  }
+}
+
+.content.special {
+  margin-top: -130px !important;
+  h2 {
+    margin-bottom: 0px;
+    background: rgba($color: #fff, $alpha: 0.75);
+    padding: 20px 30px 30px;
+  }
+  p {
+    line-height: 1.8;
+    text-align: justify;
+    padding: 0 30px;
+  }
+}

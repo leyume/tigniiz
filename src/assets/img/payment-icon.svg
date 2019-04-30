@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" viewBox="0 0 53.399 45.538">
+  <g id="Group_5" data-name="Group 5" transform="translate(-134.993 -360.993)">
+    <path id="Path_2" data-name="Path 2" d="M66.75,69.766H71a2,2,0,0,0,2-2v-22a2,2,0,0,0-2-2H25a2,2,0,0,0-2,2v22a2,2,0,0,0,2,2H60.875" transform="translate(114.392 335.765)" fill="none" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="7.656" cy="7.656" r="7.656" transform="translate(154.736 384.873)" stroke-width="3" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(114.392 335.765)">
+      <path id="Path_3" data-name="Path 3" d="M65.9,27.593a1.828,1.828,0,0,0-2.242-1.3L22.967,37.2a1.83,1.83,0,0,0-1.3,2.243" fill="none" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_4" data-name="Path 4" d="M70.23,43.766,65.9,27.593a1.828,1.828,0,0,0-2.242-1.3L22.967,37.2a1.83,1.83,0,0,0-1.3,2.243L23,44.647" fill="none" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_1" data-name="Line 1" x1="15.307" y2="4.102" transform="translate(47.578 39.66)" fill="none" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_5" data-name="Path 5" d="M49.541,35.811l17.314-4.639L68.713,38.1,65.8,38.88" fill="none" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_2" data-name="Line 2" y1="5.711" x2="21.319" transform="translate(22.63 37.31)" fill="none" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(-1)">
+      <text id="N" transform="translate(159 396)" font-size="10" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0" stroke="rgb(221,79,4)">N</tspan></text>
+      <line id="Line_3" data-name="Line 3" x2="7" transform="translate(159.5 391.5)" fill="none" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_4" data-name="Line 4" x2="7" transform="translate(159.5 393.5)" fill="none" stroke="rgb(221,79,4)" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

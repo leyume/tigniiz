@@ -1,0 +1,24 @@
+/* 
+*Sassy style
+*/
+
+// Helpers
+@import "helpers/parameters";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// Components
+// @import "components/cards";
+// @import "components/comments";
+@import "components/form";
+@import "components/footer";
+@import "components/header";
+@import "components/nav";
+@import "components/section";
+@import "components/btn";
+// @import "components/pagination";
+
+// Layout
+@import "layout/base";
+@import "layout/animation";
+@import "layout/responsive";

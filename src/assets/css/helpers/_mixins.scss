@@ -1,0 +1,23 @@
+/*** Mixins ***/
+
+@mixin central() {
+  > div {
+    width: $central;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+@mixin central_() {
+  > div {
+    max-width: $central;
+    margin: 0 auto;
+  }
+}
+
+@mixin central_free() {
+  > div {
+    max-width: 96%;
+    margin: 0 auto;
+  }
+}
